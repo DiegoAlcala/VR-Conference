@@ -1,0 +1,761 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19045.4170; Version 2009; 64bit' Language: 'es' Physical Memory: 16286 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker37
+-projectPath
+D:/VR-Conference/Conference-Mechanics
+-logFile
+Logs/AssetImportWorker37.log
+-srvPort
+65387
+Successfully changed project path to: D:/VR-Conference/Conference-Mechanics
+D:/VR-Conference/Conference-Mechanics
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 527.73 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 3.36 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/VR-Conference/Conference-Mechanics/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics (ID=0x22b1)
+    Vendor:   
+    VRAM:     4096 MB
+    Driver:   20.19.15.4531
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010068 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 508.23 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.858 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.038570 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 278.58 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.254 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.38 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 1.71 ms.
+Unloading 2948 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.8 MB.
+System memory in use after: 126.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 3338.
+Total: 11.782300 ms (FindLiveObjects: 1.281700 ms CreateObjectMapping: 2.029900 ms MarkObjects: 8.116100 ms  DeleteObjects: 0.349300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/IRONHEAD Games/Scripts/Multiplayer/PlayerNetworkingSetup.cs
+  artifactKey: Guid(c58316addaa0dc74fb4c38b00917ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Multiplayer/PlayerNetworkingSetup.cs using Guid(c58316addaa0dc74fb4c38b00917ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b43aea8e041fd60c8726e797aae9f4b') in 0.211857 seconds 
+  Import took 0.236984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.079647 seconds.
+  path: Assets/IRONHEAD Games/Resource/Generic Player VR.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resource/Generic Player VR.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43dedf20fd8614b07efe0d082db58c4') in 1.706018 seconds 
+  Import took 1.739714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.993364 seconds.
+  path: Assets/IRONHEAD Games/Scripts/Voice chat Scripts
+  artifactKey: Guid(79b2bcd79c968d34d9bdc421473516d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scripts/Voice chat Scripts using Guid(79b2bcd79c968d34d9bdc421473516d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c41c9b98725fb387a5991286611073') in 0.408145 seconds 
+  Import took 0.484688 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 4.752830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1740.58 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 49.226 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 12.67 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 2922 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3344.
+Total: 13.877400 ms (FindLiveObjects: 1.244400 ms CreateObjectMapping: 0.546500 ms MarkObjects: 11.915800 ms  DeleteObjects: 0.164000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346.919453 seconds.
+  path: Assets/IRONHEAD Games/Scenes/World_School.unity
+  artifactKey: Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/World_School.unity using Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67131ed6cc1147400a0802400b92ec12') in 0.129384 seconds 
+  Import took 0.251708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.784420 seconds.
+  path: Assets/IRONHEAD Games/Scenes/World_Outdoor.unity
+  artifactKey: Guid(5041d70b592f91c4c8b6824c2ef6484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/World_Outdoor.unity using Guid(5041d70b592f91c4c8b6824c2ef6484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705322564b8b973ead1c8f61caaff7e8') in 0.098031 seconds 
+  Import took 1.224272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 694.727396 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/UI Prefab/AvatarUI.prefab
+  artifactKey: Guid(9fa657236ba31b348bd64b69a571b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/UI Prefab/AvatarUI.prefab using Guid(9fa657236ba31b348bd64b69a571b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f5a45d41ef8bf2e884b55682c8b771') in 0.612054 seconds 
+  Import took 0.638332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/UI Prefab/Voice Debug UI.prefab
+  artifactKey: Guid(e570103aa6aa07548b81a2a1d372496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/UI Prefab/Voice Debug UI.prefab using Guid(e570103aa6aa07548b81a2a1d372496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8da544bea2ad4172ab17c291d3b617') in 0.267193 seconds 
+  Import took 0.651516 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.251222 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.51 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 19.183 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 6.19 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 2923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.5 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3350.
+Total: 14.582500 ms (FindLiveObjects: 1.227400 ms CreateObjectMapping: 0.557300 ms MarkObjects: 12.642600 ms  DeleteObjects: 0.148800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1225.224590 seconds.
+  path: Assets/IRONHEAD Games/Resource/Generic Player VR.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resource/Generic Player VR.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28475b79511567895331957e098ec57') in 1.090181 seconds 
+  Import took 1.111300 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.062004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.91 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.023 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 14.12 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 124.5 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3356.
+Total: 11.888000 ms (FindLiveObjects: 1.939700 ms CreateObjectMapping: 0.759700 ms MarkObjects: 9.031200 ms  DeleteObjects: 0.152000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.326070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.07 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 50.386 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 15.35 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 124.6 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3361.
+Total: 64.462400 ms (FindLiveObjects: 16.217800 ms CreateObjectMapping: 3.037100 ms MarkObjects: 44.843600 ms  DeleteObjects: 0.357100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 864.562253 seconds.
+  path: Assets/IRONHEAD Games/Scenes/LoginScene.unity
+  artifactKey: Guid(b3049d4882a276f4dbae81c84962e9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/LoginScene.unity using Guid(b3049d4882a276f4dbae81c84962e9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0bc1c36840044d6b230d9dc07ce0f9') in 0.179902 seconds 
+  Import took 0.200625 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.165680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.51 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 47.810 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 12.32 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.4 MB.
+System memory in use after: 124.6 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3366.
+Total: 33.384300 ms (FindLiveObjects: 9.147800 ms CreateObjectMapping: 0.667500 ms MarkObjects: 23.416100 ms  DeleteObjects: 0.147400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 314.086325 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(55e97c60a8fdbb54a92dce2a2b342712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(55e97c60a8fdbb54a92dce2a2b342712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df6a5b82e255d3313ffed5adab79b0a') in 0.102835 seconds 
+  Import took 0.118181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156200 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(55e97c60a8fdbb54a92dce2a2b342712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(55e97c60a8fdbb54a92dce2a2b342712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df6a5b82e255d3313ffed5adab79b0a') in 0.051607 seconds 
+  Import took 0.075731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.896888 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(55e97c60a8fdbb54a92dce2a2b342712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(55e97c60a8fdbb54a92dce2a2b342712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197abffe673d5c49a89ebfbc3ad3f420') in 0.058476 seconds 
+  Import took 0.079585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.295990 seconds.
+  path: Assets/IRONHEAD Games/Resource/Generic Player VR.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resource/Generic Player VR.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b102ef425d99b6de7487107c26e06b5') in 1.314242 seconds 
+  Import took 1.382484 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.060047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.51 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.866 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.41 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.4 MB.
+System memory in use after: 124.6 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3371.
+Total: 12.448200 ms (FindLiveObjects: 1.233500 ms CreateObjectMapping: 0.544900 ms MarkObjects: 10.514500 ms  DeleteObjects: 0.148900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.820224 seconds.
+  path: Assets/IRONHEAD Games/Resource/Generic Player VR.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resource/Generic Player VR.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5061e41bc72918052d9912e1af16ac') in 6.174839 seconds 
+  Import took 6.197479 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.290416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.53 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.101 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5.12 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.4 MB.
+System memory in use after: 124.6 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 13.097600 ms (FindLiveObjects: 1.618100 ms CreateObjectMapping: 0.600600 ms MarkObjects: 10.720300 ms  DeleteObjects: 0.153100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 374.287317 seconds.
+  path: Assets/IRONHEAD Games/Scenes/World_School.unity
+  artifactKey: Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/World_School.unity using Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5948bbd67ea86bea91a1b55594f026d') in 0.076418 seconds 
+  Import took 0.124938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.955569 seconds.
+  path: Assets/IRONHEAD Games/Scenes/LoginSceneSettings.lighting
+  artifactKey: Guid(a18aa2e763fc093429572dbfcabd7c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/LoginSceneSettings.lighting using Guid(a18aa2e763fc093429572dbfcabd7c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6602ad0dc5831f2df6fa15a59646ac7') in 11.464774 seconds 
+  Import took 11.478478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.731511 seconds.
+  path: Assets/IRONHEAD Games/Scenes/LoginSceneSettings.lighting
+  artifactKey: Guid(a18aa2e763fc093429572dbfcabd7c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/LoginSceneSettings.lighting using Guid(a18aa2e763fc093429572dbfcabd7c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6602ad0dc5831f2df6fa15a59646ac7') in 0.008397 seconds 
+  Import took 5.119889 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.383021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.05 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 32.344 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 7.16 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.4 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3381.
+Total: 11.005900 ms (FindLiveObjects: 1.269200 ms CreateObjectMapping: 0.554900 ms MarkObjects: 9.022500 ms  DeleteObjects: 0.153900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 210.795891 seconds.
+  path: Assets/Resource/Generic Player VR.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Generic Player VR.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c5c85e8001dc7673f44c78dadf37c6') in 1.200431 seconds 
+  Import took 1.237479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.603098 seconds.
+  path: Assets/Resource/Generic VR Player.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Generic VR Player.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3709d9ee813eaf603ad646271b005f36') in 0.483355 seconds 
+  Import took 0.504707 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.056844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.31 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 20.369 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5.76 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.5 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3386.
+Total: 42.174200 ms (FindLiveObjects: 6.183500 ms CreateObjectMapping: 1.329600 ms MarkObjects: 34.473900 ms  DeleteObjects: 0.179500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 419.920019 seconds.
+  path: Assets/IRONHEAD Games/Resources
+  artifactKey: Guid(8da29f1c8dfdf47439a108a4c27d3ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resources using Guid(8da29f1c8dfdf47439a108a4c27d3ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaee0c5a11493b876d434bf8a4ce0450') in 0.113754 seconds 
+  Import took 0.201198 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.052606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.13 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.401 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.31 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.5 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3391.
+Total: 15.329600 ms (FindLiveObjects: 3.462000 ms CreateObjectMapping: 2.184200 ms MarkObjects: 9.525800 ms  DeleteObjects: 0.152000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.080642 seconds.
+  path: Assets/IRONHEAD Games/Resources/Generic VR Player.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resources/Generic VR Player.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a689584d9696b7e664955393629da43c') in 2.160213 seconds 
+  Import took 2.189919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.109375 seconds.
+  path: Assets/IRONHEAD Games/Resources/Generic VR Player.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resources/Generic VR Player.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01be67d4180268cc87815caa2a434a42') in 0.486686 seconds 
+  Import took 0.539193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.516982 seconds.
+  path: Assets/IRONHEAD Games/Resources/Generic VR Player.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resources/Generic VR Player.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11bca82ed33eab2d21bd403189bb3a6') in 0.494782 seconds 
+  Import took 0.530663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.721145 seconds.
+  path: Assets/IRONHEAD Games/Resources/Generic VR Player.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resources/Generic VR Player.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef2d4f5042994899d95eb1d80faf2ef') in 0.457183 seconds 
+  Import took 0.502460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.150329 seconds.
+  path: Assets/IRONHEAD Games/Resources/Generic VR Player.prefab
+  artifactKey: Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Resources/Generic VR Player.prefab using Guid(5c5a6e4f9a7d4c944b6b9a1c0041b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dc2621367cf035e50f5ed82fc404ca') in 0.488325 seconds 
+  Import took 0.547134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.911997 seconds.
+  path: Assets/IRONHEAD Games/Scenes/World_Outdoor.unity
+  artifactKey: Guid(5041d70b592f91c4c8b6824c2ef6484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/World_Outdoor.unity using Guid(5041d70b592f91c4c8b6824c2ef6484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60be15f25ba0ecb1bbc31caf0631a557') in 0.052276 seconds 
+  Import took 0.082427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.004667 seconds.
+  path: Assets/IRONHEAD Games/Scenes/World_School.unity
+  artifactKey: Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/World_School.unity using Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dae1b5a0f9fa110017ca4d744a5c824') in 0.034628 seconds 
+  Import took 0.091802 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.056213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.93 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.222 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.72 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.93 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.5 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3396.
+Total: 11.290900 ms (FindLiveObjects: 1.264900 ms CreateObjectMapping: 0.553800 ms MarkObjects: 9.312300 ms  DeleteObjects: 0.155700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.037536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.69 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\VR-Conference\Conference-Mechanics\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 58.874 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 7.50 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 2924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.5 MB.
+System memory in use after: 124.8 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3401.
+Total: 15.853200 ms (FindLiveObjects: 1.328000 ms CreateObjectMapping: 0.575300 ms MarkObjects: 13.787000 ms  DeleteObjects: 0.156900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
